@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
 
-import Login from "./Login";
+// import Login from "./Login";
 
 function Header() {
 
@@ -31,7 +31,7 @@ function Header() {
                             <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
-                   <Login />
+                   
                 </div>
             </div>
         </nav>
