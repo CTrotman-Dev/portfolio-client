@@ -1,19 +1,27 @@
 const clientData = [
     {
-        id:5,
+        id:6,
         company:"Self Employed",
         role:"Software Developer",
-        length:"July 2020 - Current",
+        length:"July 2021 - Current",
         languages:["JavaScript","React","MongoDB"],
-        info:"Worked for myself developing websites, applications and mobile games. woodmansdairy.com Website..... Eggscape Android Game...."
+        info:"Designed and developed craigtrotman.com ....."
+    },
+    {
+        id:5,
+        company:"Self Employed - Woodmans Dairy",
+        role:"Software Developer",
+        length:"July 2021 - Current",
+        languages:["JavaScript","React","MongoDB"],
+        info:"Designed and developed Woodmansdairy.com ....."
     },
     {
         id:1,
-        company:"Self Employed",
+        company:"Self Employed - CDT Studios",
         role:"Software Developer",
         length:"July 2020 - Current",
-        languages:["JavaScript","React","MongoDB"],
-        info:"Worked for myself developing websites, applications and mobile games."
+        languages:["C#","Unity","Blender"],
+        info:"Designed and developed Eggscape, an android mobile game...."
     },
     {
         id:2,
