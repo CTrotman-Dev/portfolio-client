@@ -16,7 +16,7 @@ const NameValueCell = (props) => {
                 <ul>
                     {props.languages.map((x, i) =>
                         <li key={x + i}>
-                            {x.name}
+                            {x}
                         </li>
                     )}
                 </ul>
