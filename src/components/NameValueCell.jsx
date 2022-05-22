@@ -13,20 +13,25 @@ const NameValueCell = (props) => {
                 <h3>
                     {props.role}
                 </h3>
-                <ul>
+                <p>
+                    {props.length}
+                </p>
+
+            </div>
+            <div className="col-6 right-col">
+
+                <ul className="two-col">
                     {props.languages.map((x, i) =>
                         <li key={x + i}>
                             {x}
                         </li>
                     )}
                 </ul>
-
             </div>
-            <div className="col-6 right-col">
+            <div className="row">
                 <p>
-                    {props.length}
+                    {props.info}
                 </p>
-
             </div>
         </div>
     );

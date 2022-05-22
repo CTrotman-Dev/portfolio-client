@@ -13,6 +13,7 @@ const NameValueTable = (props) => {
                     role={x.role}
                     length={x.length}
                     languages={x.languages}
+                    info={x.info}
                 />
             )}
         </div>

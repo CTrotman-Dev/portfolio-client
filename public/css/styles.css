@@ -4,16 +4,13 @@
   --main-bg: #DB2A02;
   --dark-font: #08182B;
   --dark-font-hover: #1D5697;
-  --off-white: #ccc;
+  --off-white: rgba(255, 255, 255, 0.4);
 
   --lightest: #B1D4E0;
   --light: #2E8BC0;
   --dark: #145DA0;
   --darkest: #0C2D48;
 }
-
-
-
 
 * {
   padding: 0;
@@ -334,7 +331,10 @@ textarea {
 
 
 .row-container{
+  background-color: var(--off-white);
+  border-radius: 25px;
   margin:50px auto;
+  padding:20px 0;
   text-align: left;
   font-weight: 500;
   max-width: 90%;
@@ -345,12 +345,20 @@ textarea {
 }
 
 .left-col{
-
+padding:20px 50px;
+text-align: left;
 }
 
 .right-col{
-text-align: center;
-margin: auto 0;
+text-align: left;
+padding:20px 50px;
+}
+
+.two-col{
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  width:70%;
 }
 
 .about-content,
@@ -381,7 +389,7 @@ margin: auto 0;
 
 .quick-link h1 {
   background-color: rgba(0, 0, 0, 0.3);
-  color: var(--off-white);
+  color: #fff;
   top: -215px;
   left: 0;
   height:100px;
@@ -445,17 +453,11 @@ margin: auto 0;
     margin: 20px auto;
   }
 
-  .top {}
-
   .name {
     font-size: 1.4em;
 
 
     /* margin: 10px 10px 0; */
-  }
-
-  .card img {
-    /* margin: 25px 5px 0 0; */
   }
 
   .circle-img {
@@ -465,15 +467,28 @@ margin: auto 0;
     height: 100px;
   }
 
-  .bottom {
-    /* margin-top: 85px; */
-    /* margin-right: 100px; */
-  }
-
   .info {
     /* margin: 20px 0; */
     color: var(--dark-font);
   }
+
+  .two-col{
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    width:100%;
+  }
+  .left-col{
+    font-size: 15px;
+    padding:20px 10px;
+    text-align: left;
+    }
+    
+    .right-col{
+      font-size: 15px;
+    text-align: left;
+    padding:20px 20px;
+    }
 }
 
 /* On screens that are 600px or less */
