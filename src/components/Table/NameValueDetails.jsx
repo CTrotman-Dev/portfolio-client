@@ -9,7 +9,7 @@ const NameValueDetails = (props) => {
 
     return (
         <div className="details-section" onClick={handleClick}>
-            <h4>
+            <h4 className="details-title">
                 {props.title}
             </h4>
             <div className={isVisible ? "detailed-info" : "hidden-detailed-info"}>

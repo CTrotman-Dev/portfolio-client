@@ -34,7 +34,7 @@ const NameValueCell = (props) => {
                     <NameValueList key={x + i} title={x} content={x} />
                     )}
                 </ul> :
-                <p className="">
+                <p className="details-title">
                     See languages...
                 </p>
            }

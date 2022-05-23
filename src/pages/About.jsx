@@ -1,6 +1,5 @@
 import React from "react";
 
-import NameValueTable from "../components/NameValueTable";
 import MyMap from "../components/MyMap";
 
 const About = () => {

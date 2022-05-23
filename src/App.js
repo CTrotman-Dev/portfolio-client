@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Routes, Route } from "react-router-dom";
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -15,17 +16,19 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <div className="mainContent">
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/clients" element={<Clients />} />
-            <Route path="/education" element={<Education />} />
-          </Routes>
-        </div>
-        <Footer />
+        {/* <ParallaxProvider> */}
+          <Header />
+          <div className="mainContent">
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/clients" element={<Clients />} />
+              <Route path="/education" element={<Education />} />
+            </Routes>
+          </div>
+          <Footer />
+        {/* </ParallaxProvider> */}
       </div>
     );
   }

@@ -1,6 +1,6 @@
 import React from "react";
 
-import NameValueTable from "../components/NameValueTable";
+import NameValueTable from "../components/Table/NameValueTable";
 
 import educationData from "../educationData";
 const Education = () => {

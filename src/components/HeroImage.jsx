@@ -1,9 +1,9 @@
 import React from "react";
 
-const HeroImage = () => {
+const HeroImage = (props) => {
     return (
         <div className="hero-container">
-            <img src="/logo2.png" />
+            <img src={props.imgSrc} />
 
         </div>
     );

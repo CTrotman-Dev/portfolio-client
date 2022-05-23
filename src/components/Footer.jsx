@@ -1,5 +1,7 @@
 import React from "react";
 
+import SocialIcons from "./SocialIcons";
+
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -7,7 +9,7 @@ const Footer = () => {
 
     function Copyright() {
         return (
-            <div className="footer">
+            <div>
                 {'Copyright © Craig Trotman '}
                 {new Date().getFullYear()}.
             </div>
@@ -15,7 +17,8 @@ const Footer = () => {
     }
 
     return (
-        <div>
+        <div className="footer sticky-bottom">
+            <SocialIcons />
             <Copyright />
         </div>
     );
