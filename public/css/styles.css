@@ -407,6 +407,23 @@ padding:20px 50px;
   text-decoration: none;
 }
 
+
+.details-section:hover{
+  color: var(--dark);
+  cursor: pointer;
+}
+
+
+.detailed-info{
+  display: inline;
+  
+}
+
+.hidden-detailed-info{
+  display: none;
+  
+}
+
 .map {
   height: 500px;
   margin: 10px auto;
@@ -489,6 +506,8 @@ padding:20px 50px;
     text-align: left;
     padding:20px 20px;
     }
+
+
 }
 
 /* On screens that are 600px or less */

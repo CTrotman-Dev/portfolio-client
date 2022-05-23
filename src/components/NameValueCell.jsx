@@ -1,7 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
+
+import NameValueList from "./NameValueList";
+import NameValueDetails from "./NameValueDetails";
 
 const NameValueCell = (props) => {
-    console.log(props.languages);
+    const [isVisible, setIsVisible] = useState(false);
+
+    function handleClick(){
+        setIsVisible(!isVisible);
+    }
+
+    
     return (
 
         <div className="row row-container">
@@ -18,20 +27,24 @@ const NameValueCell = (props) => {
                 </p>
 
             </div>
-            <div className="col-6 right-col">
-
+            <div className="col-6 right-col details-section" onClick={handleClick}>
+           {isVisible ? 
                 <ul className="two-col">
                     {props.languages.map((x, i) =>
-                        <li key={x + i}>
-                            {x}
-                        </li>
+                    <NameValueList key={x + i} title={x} content={x} />
                     )}
-                </ul>
+                </ul> :
+                <p className="">
+                    See languages...
+                </p>
+           }
             </div>
             <div className="row">
-                <p>
-                    {props.info}
-                </p>
+
+                {props.info.map((x, i) =>
+                    <NameValueDetails key={x[0] + i} title={x[0]} content={x[1]} />
+                )}
+
             </div>
         </div>
     );
