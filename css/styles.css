@@ -30,6 +30,10 @@ body {
   /* background: #000; */
 }
 
+h1, h2, h3,h4 {
+  font-family: "Bebas Neue", serif;
+}
+
 .row {
   width: 100%;
   margin: 0;
@@ -369,6 +373,7 @@ textarea {
 
 
 .row-container{
+  color:var(--darkest);
   background-color: var(--off-white);
   border-radius: 25px;
   margin:50px auto;
@@ -378,8 +383,13 @@ textarea {
   max-width: 90%;
 }
 
-.row-container h2{
+.details-title{
+  color:var(--dark);
+}
+
+.heading-text{
   text-align: center;
+
 }
 
 .left-col{
@@ -478,19 +488,27 @@ padding:20px 50px;
 .footer {
   text-align: center;
   margin:25px 0;
-  position: fixed;
+  /* position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 0; */
   width: 100%;
 }
 
 
 .social-icons{
+  margin-top: 25px;;
   text-align: center;
 }
 
 .social-icon{
-  margin: 25px 25px;
+  margin: 10px 25px;
+  font-size: 35px;
+  color: var(--darkest);
+}
+
+.social-icon:hover{
+  font-size: 40px;
+  color: var(--dark);
 }
 
 /* On screens that are 992px or less */
