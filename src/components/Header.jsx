@@ -1,40 +1,64 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+
+import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+
 
 // import Login from "./Login";
 
 function Header() {
+    const [isVisible, setIsVisible] = useState(true);
+
+    function handleClick() {
+        setIsVisible(!isVisible);
+    }
 
     return (
+<Navbar collapseOnSelect className="navbar" variant="dark" expand="lg" sticky="top">
+  <Container>
+    <Navbar.Brand href="/">Craig Trotman</Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="me-auto">
+        <Nav.Link className="nav-item" href="/">Home</Nav.Link>
+        <Nav.Link className="nav-item" href="/clients">Clients</Nav.Link>
+        <Nav.Link className="nav-item" href="/education">Education</Nav.Link>
+        <Nav.Link className="nav-item" href="/about">About</Nav.Link>
+        <Nav.Link className="nav-item" href="/contact">Contact</Nav.Link>
+      </Nav>
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
+       
+        // <nav className="navbar navbar-expand-lg sticky-top">
+        //     <div className="container-fluid">
+        //         <a className="navbar-brand" href="/">Craig Trotman</a>
+        //         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        //             <span className="navbar-toggler-icon"></span>
+        //         </button>
+                
+        //             <div className="collapse navbar-collapse" id="navbarToggler">
+        //             {isVisible &&  <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        //                     <li onClick={handleClick} className="nav-item">
+        //                         <Link to="/">Home</Link>
+        //                     </li>
+        //                     <li onClick={handleClick} className="nav-item">
+        //                         <Link to="/clients">Clients</Link>
+        //                     </li>
+        //                     <li onClick={handleClick} className="nav-item">
+        //                         <Link to="/education">Education</Link>
+        //                     </li>
+        //                     <li onClick={handleClick} className="nav-item">
+        //                         <Link to="/about">About</Link>
+        //                     </li>
+        //                     <li onClick={handleClick} className="nav-item">
+        //                         <Link to="/contact">Contact</Link>
+        //                     </li>
+        //                 </ul>}
 
-        <nav className="navbar navbar-expand-lg sticky-top">
-            <div className="container-fluid">
-                <a className="navbar-brand" href="/">Craig Trotman</a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarToggler">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/clients">Clients</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/education">Education</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/about">About</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/contact">Contact</Link>
-                        </li>
-                    </ul>
-                   
-                </div>
-            </div>
-        </nav>
+        //             </div>
+        //     </div>
+        // </nav>
     );
 }
 
