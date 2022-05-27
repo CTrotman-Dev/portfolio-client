@@ -14,9 +14,9 @@ const NameValueCell = (props) => {
     return (
 
         <div className="row row-container">
-            <h2>
+            <h1 className="heading-text">
                 {props.company}
-            </h2>
+            </h1>
             <div className="col-6 left-col">
 
                 <h3>

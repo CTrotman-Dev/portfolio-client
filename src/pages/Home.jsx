@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
             <HeroImage imgSrc="/logo2.png" />
-            <AnimateInOut visible="true" delay="0" in="animate__shakeY" out="animate__bounceOutRight">
+            <AnimateInOut visible="true" delay="0" in="animate__fadeInUp" out="">
                 <QuickLinks />
             </AnimateInOut>
         </div>

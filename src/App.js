@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Routes, Route } from "react-router-dom";
-import { ParallaxProvider } from 'react-scroll-parallax';
+
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
