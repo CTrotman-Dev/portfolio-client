@@ -23,14 +23,14 @@ function Header() {
   {/* <img className="logo-image" src="/logo.png" alt="logo" /> */}
   </Navbar.Brand>
     {/* <Navbar.Brand href="/">Craig Trotman</Navbar.Brand> */}
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
+    <Navbar.Toggle aria-controls="navbar-nav" />
+    <Navbar.Collapse id="navbar-nav">
       <Nav className="me-auto">
-        <Nav.Link as={Link} className="nav-item" href="/" to="/">Home</Nav.Link>
-        <Nav.Link as={Link} className="nav-item" href="/clients" to="/clients">Clients</Nav.Link>
-        <Nav.Link as={Link} className="nav-item" href="/education" to="/education">Education</Nav.Link>
-        <Nav.Link as={Link} className="nav-item" href="/about" to="/about">About</Nav.Link>
-        <Nav.Link as={Link} className="nav-item" href="/contact" to="/contact">Contact</Nav.Link>
+        <Nav.Link eventKey="0" as={Link} className="nav-item" href="/" to="/">Home</Nav.Link>
+        <Nav.Link eventKey="1" as={Link} className="nav-item" href="/clients" to="/clients">Clients</Nav.Link>
+        <Nav.Link eventKey="2" as={Link} className="nav-item" href="/education" to="/education">Education</Nav.Link>
+        <Nav.Link eventKey="3" as={Link} className="nav-item" href="/about" to="/about">About</Nav.Link>
+        <Nav.Link eventKey="4" as={Link} className="nav-item" href="/contact" to="/contact">Contact</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   

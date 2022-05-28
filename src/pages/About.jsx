@@ -11,7 +11,7 @@ const About = () => {
                 </h1>
                 <p>I am a software developer for Cardiff. I have travelled the world building beautiful code in beautiful places.</p>
                 <h3>
-                    <a href="/showcase">See our past projects.</a>
+                    <a href="/clients">See our past projects.</a>
                 </h3>
 
             </div>

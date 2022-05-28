@@ -524,6 +524,7 @@ textarea {
 @media screen and (max-width: 992px) {
   .navbar {
     font-size: 17px;
+    padding:10px 10px;
   }
 
   .navbar-brand {
