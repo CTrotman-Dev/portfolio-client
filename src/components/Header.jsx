@@ -15,8 +15,12 @@ function Header() {
 
     return (
 <Navbar collapseOnSelect className="navbar" variant="dark" expand="lg" sticky="top">
-  <Container>
-    <Navbar.Brand href="/">Craig Trotman</Navbar.Brand>
+  
+  
+  <Navbar.Brand href="/">
+  <img className="logo-image" src="/logo.png" alt="logo" />
+  </Navbar.Brand>
+    {/* <Navbar.Brand href="/">Craig Trotman</Navbar.Brand> */}
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
@@ -27,7 +31,7 @@ function Header() {
         <Link className="nav-item" to="/contact">Contact</Link>
       </Nav>
     </Navbar.Collapse>
-  </Container>
+  
 </Navbar>
        
         // <nav className="navbar navbar-expand-lg sticky-top">

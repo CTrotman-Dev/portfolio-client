@@ -4,10 +4,13 @@ import HeroImage from "../components/HeroImage";
 import QuickLinks from "../components/QuickLinks";
 import AnimateInOut from "../components/Animation/AnimateInOut";
 
+import HeroTabbed from "../components/HeroTabbed";
+
 const Home = () => {
     return (
         <div>
-            <HeroImage imgSrc="/logo2.png" />
+        <HeroTabbed />
+            {/* <HeroImage imgSrc="/logo.png" /> */}
             <AnimateInOut visible="true" delay="0" in="animate__fadeInUp" out="">
                 <QuickLinks />
             </AnimateInOut>

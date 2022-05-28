@@ -34,9 +34,11 @@ const NameValueCell = (props) => {
                     <NameValueList key={x + i} title={x} content={x} />
                     )}
                 </ul> :
-                <p className="details-title">
-                    See languages...
-                </p>
+                <ul className="two-col">
+                    {props.languages.slice(0,4).map((x, i) =>
+                    <NameValueList key={x + i} title={x} content={x} />
+                    )}
+                </ul>
            }
             </div>
             <div className="row">
