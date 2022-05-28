@@ -49,6 +49,22 @@ h4 {
 
 }
 
+.logo{
+  display: inline;
+}
+
+.logo-start{
+  display: inline;
+background-color: transparent;
+color: var(--lightest);
+}
+
+.logo-end{
+  display: inline;
+  background-color: var(--lightest);
+  color: var(--darkest);
+}
+
 nav {
   color: var(--lightest);
 }
@@ -64,9 +80,9 @@ nav {
 
 .navbar-brand {
 
-  font-family: "Ovo", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 200;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .navbar-nav {
@@ -507,15 +523,16 @@ textarea {
   }
 
   .navbar-brand {
-    text-align: left;
+    /* text-align: left;
     font-size: 20px;
     position: relative;
-    left: -20px;
+    left: -20px; */
+    max-width: 75%;
   }
 
   .logo-image {
-
-    max-width: 40%;
+width: 100%;
+    /* max-width: 40%; */
   }
 
   .navbar-nav {
@@ -538,6 +555,15 @@ textarea {
   button:focus:not(:focus-visible) {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
   }
+
+  .tab-text {
+    
+    padding: 5px 10px;
+    line-height: 1;
+    margin: 0;
+    width: 100%;
+    border: 5px var(--darkest) solid;
+}
 
 
   .card {
@@ -587,4 +613,12 @@ textarea {
 }
 
 /* On screens that are 600px or less */
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+  .navbar-brand {
+    /* text-align: left;
+    font-size: 20px;
+    position: relative;
+    left: -20px; */
+    max-width: 60%;
+  }
+}
