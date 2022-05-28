@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 
+import Logo from "./Logo";
 
 // import Login from "./Login";
 
@@ -18,7 +19,8 @@ function Header() {
   
   
   <Navbar.Brand href="/">
-  <img className="logo-image" src="/logo.png" alt="logo" />
+  <Logo />
+  {/* <img className="logo-image" src="/logo.png" alt="logo" /> */}
   </Navbar.Brand>
     {/* <Navbar.Brand href="/">Craig Trotman</Navbar.Brand> */}
     <Navbar.Toggle aria-controls="basic-navbar-nav" />

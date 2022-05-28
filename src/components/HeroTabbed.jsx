@@ -33,7 +33,7 @@ const HeroTabbed = (props) => {
     return (
         <div className="hero-tabbed-container">
             <div className="row">
-                <div className="hero-tab-menu col-4">
+                <div className="hero-tab-menu col-md-4">
                     <div onClick={() => showImage(2)} className={img2 ? "tab-text active" : "tab-text"}>
                         <h3>
                             Web Design & Development
@@ -55,7 +55,7 @@ const HeroTabbed = (props) => {
                     </div>
 
                 </div>
-                <div className="hero-tab-image col-8">
+                <div className="hero-tab-image col-md-8">
                     {img1 &&
                         <div className="detail-tab">
                             <h1>Eggscape</h1>
