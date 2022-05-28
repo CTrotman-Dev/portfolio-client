@@ -26,11 +26,11 @@ function Header() {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-        <Link className="nav-item" to="/">Home</Link>
-        <Link className="nav-item" to="/clients">Clients</Link>
-        <Link className="nav-item" to="/education">Education</Link>
-        <Link className="nav-item" to="/about">About</Link>
-        <Link className="nav-item" to="/contact">Contact</Link>
+        <Nav.Link as={Link} className="nav-item" href="/" to="/">Home</Nav.Link>
+        <Nav.Link as={Link} className="nav-item" href="/clients" to="/clients">Clients</Nav.Link>
+        <Nav.Link as={Link} className="nav-item" href="/education" to="/education">Education</Nav.Link>
+        <Nav.Link as={Link} className="nav-item" href="/about" to="/about">About</Nav.Link>
+        <Nav.Link as={Link} className="nav-item" href="/contact" to="/contact">Contact</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   

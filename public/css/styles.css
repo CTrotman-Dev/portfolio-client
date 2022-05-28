@@ -204,8 +204,12 @@ nav {
   width: 100%;
   border: 30px var(--darkest) solid;
 }
-
 .active{
+  background-color: var(--lightest);
+  color:var(--darkest)!important;
+}
+
+.active-tab{
   background-color: var(--lightest);
   color:var(--darkest);
 }

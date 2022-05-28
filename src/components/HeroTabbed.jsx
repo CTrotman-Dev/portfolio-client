@@ -34,20 +34,20 @@ const HeroTabbed = (props) => {
         <div className="hero-tabbed-container">
             <div className="row">
                 <div className="hero-tab-menu col-md-4">
-                    <div onClick={() => showImage(2)} className={img2 ? "tab-text active" : "tab-text"}>
+                    <div onClick={() => showImage(2)} className={img2 ? "tab-text active-tab" : "tab-text"}>
                         <h3>
                             Web Design & Development
                         </h3>
 
                     </div>
-                    <div onClick={() => showImage(1)} className={img1 ? "tab-text active" : "tab-text"}>
+                    <div onClick={() => showImage(1)} className={img1 ? "tab-text active-tab" : "tab-text"}>
                         <h3>
                             Mobile Games & Applications
                         </h3>
 
                     </div>
 
-                    <div onClick={() => showImage(3)} className={img3 ? "tab-text active" : "tab-text"}>
+                    <div onClick={() => showImage(3)} className={img3 ? "tab-text active-tab" : "tab-text"}>
                         <h3>
                             Backend Development & DBA
                         </h3>
