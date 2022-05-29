@@ -1,13 +1,12 @@
 import React from "react";
 
 import Form from "../components/Form";
+import TitleBanner from "../components/TitleBanner";
 
 const Contact = () => {
     return (
-        <div className="contact-page row">
-            <h1>
-                Contact Us
-            </h1>
+        <div>
+            <TitleBanner text="Contact" />
 
             <div className="row">
                 <div className="col-md-6">

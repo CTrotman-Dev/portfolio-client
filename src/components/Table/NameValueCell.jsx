@@ -17,7 +17,7 @@ const NameValueCell = (props) => {
             <h1 className="heading-text">
                 {props.company}
             </h1>
-            <div className="col-6 left-col">
+            <div className="col-md-6 left-col">
 
                 <h3>
                     {props.role}
@@ -27,7 +27,7 @@ const NameValueCell = (props) => {
                 </p>
 
             </div>
-            <div className="col-6 right-col language-section" onClick={handleClick}>
+            <div className="col-md-6 right-col language-section" onClick={handleClick}>
            {isVisible ? 
                 <ul className="two-col">
                     {props.languages.map((x, i) =>
