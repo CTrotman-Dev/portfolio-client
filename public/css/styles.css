@@ -476,6 +476,16 @@ textarea {
   margin: 10px auto;
 }
 
+.btn-about{
+  background-color: var(--darkest);
+  color: var(--lightest);
+}
+
+.btn-about:hover{
+  background-color: var(--light);
+  color: var(--darkest);
+}
+
 .quick-link-container {
   /* width: 100%; */
   margin: 100px 0;

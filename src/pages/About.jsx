@@ -11,7 +11,10 @@ const About = () => {
                 <h1>
                     About Me
                 </h1>
-                <p>I am a software developer for Cardiff. I have travelled the world building beautiful code in beautiful places.</p>
+                <p> I'm Craig Trotman, A Software Engineer / developer from Cardiff, Wales.
+                    I have been creating Software for over 10 years, travelling the world building code in beautiful places.
+                    
+                </p>
                 <p>
                     Since Graduating back in 2014 from Swansea University, i have gained experience in various different developer roles. Starting with working for a big Goverment Contracting company.
                 </p>
@@ -25,8 +28,8 @@ const About = () => {
                     After doing a bit more travelling around Australia and New Zealand, i returned home to being working at a labelling machinery manufacturers. At the same time i started developing websites for local clients.
                 </p>
                 <h3>
-                    <Link to={"/clients"}>
-                        See our past projects.
+                    <Link className="btn btn-lg btn-about" to={"/contact"}>
+                    Get in touch to Digitise your business today.
                     </Link>
 
                 </h3>
