@@ -170,6 +170,19 @@ nav {
   color: #446;
 }
 
+
+.title-banner{
+  background-color: var(--darkest);
+  color: var(--lightest);
+  padding:15px 0;
+  width: 100%;
+}
+
+.title-text{
+
+}
+
+
 /*  new hero  */
 .hero-tabbed-container {
   /* max-height: 85vh;
@@ -446,15 +459,14 @@ textarea {
 }
 
 .two-col {
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  width: 70%;
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  width: 90%;
 }
 
 .about-content,
-.contact-page,
-.news-page {
+.contact-page {
   text-align: left;
   margin: 10px auto;
 }
@@ -648,22 +660,34 @@ textarea {
   }
 
   .two-col {
-    columns: 1;
-    -webkit-columns: 1;
-    -moz-columns: 1;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
     width: 100%;
+  }
+
+  .heading-text{
+    text-align: left;
   }
 
   .left-col {
     font-size: 15px;
-    padding: 20px 10px;
+    padding: 5px 10px;
     text-align: left;
   }
 
   .right-col {
     font-size: 15px;
     text-align: left;
-    padding: 20px 20px;
+    padding: 5px 10px;
+  }
+
+  .details-title{
+    font-size: 16px;
+  }
+
+  .detailed-info{
+    font-size: 14px;
   }
 
   .hero-tab-image img {
