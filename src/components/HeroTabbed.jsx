@@ -65,9 +65,12 @@ const HeroTabbed = (props) => {
                             <p>
                                 Do you have an idea for a mobile game or app? Get in contact to turn your idea into a reality.
                             </p>
-                            <a className="btn btn-lg btn-cta" href="https://play.google.com/store/apps/details?id=com.CDT.Eggscape" >
+                            {/* <a className="btn btn-lg btn-cta" href="https://play.google.com/store/apps/details?id=com.CDT.Eggscape" >
                                 Click here
-                            </a>
+                            </a> */}
+                            <Link className="btn btn-lg btn-cta" to={"/contact"} >
+                                Click here
+                            </Link>
                         </div>
                     }
                     {img2 &&
@@ -77,9 +80,12 @@ const HeroTabbed = (props) => {
                             <p>
                                 Does you business need a fresh look? Looking to digitise an out dated system? Contact us today.
                             </p>
-                            <a className="btn btn-lg btn-cta" href="https://ctrotman-dev.github.io/WoodmansDairy-react/" >
+                            {/* <a className="btn btn-lg btn-cta" href="https://ctrotman-dev.github.io/WoodmansDairy-react/" >
                                 Click here
-                            </a>
+                            </a> */}
+                            <Link className="btn btn-lg btn-cta" to={"/contact"} >
+                                Click here
+                            </Link>
                         </div>
                     }
                     {img3 &&
@@ -90,7 +96,7 @@ const HeroTabbed = (props) => {
                             <p>
                                 Looking for APi integration to enhance your data sets? Tired of structured SQL and want to switch to NoSQL?
                             </p>
-                            <Link className="btn btn-lg btn-cta" to={"/clients"} >
+                            <Link className="btn btn-lg btn-cta" to={"/contact"} >
                                 Click here
                             </Link>
                         </div>

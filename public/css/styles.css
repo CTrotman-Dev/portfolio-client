@@ -465,6 +465,11 @@ textarea {
   width: 90%;
 }
 
+.two-col:hover{
+  color:var(--dark);
+  cursor: pointer;
+}
+
 .about-content,
 .contact-page {
   text-align: left;
@@ -511,6 +516,7 @@ textarea {
 }
 
 .details-section {
+  color: var(--lightest);
   font-style: italic;
   margin: 0 auto 25px;
   padding: 15px 15px 0;
@@ -519,13 +525,19 @@ textarea {
 }
 
 .details-section:hover {
-  color: var(--dark);
+  color: var(--light);
   cursor: pointer;
+  
 }
 
 .details-title {
   margin-bottom: 35px;
   text-decoration: underline;
+}
+
+.details-title:hover{
+  color: var(--light);
+  cursor: pointer;
 }
 
 .detailed-info {
@@ -539,9 +551,9 @@ textarea {
 }
 
 .map {
-  height: 500px;
+  height: 400px;
   max-width: 750px;
-  margin: 10px auto;
+  margin: 10px 0;
 }
 
 .footer {
