@@ -4,7 +4,7 @@
   --main-bg: #DB2A02;
   --dark-font: #08182B;
   --dark-font-hover: #1D5697;
-  --off-white: rgba(255, 255, 255, 0.4);
+  --off-white: rgba(255, 255, 255, 0.8);
 
   --lightest: #B1D4E0;
   --light: #2E8BC0;
@@ -49,17 +49,17 @@ h4 {
 
 }
 
-.logo{
+.logo {
   display: inline;
 }
 
-.logo-start{
+.logo-start {
   display: inline;
-background-color: transparent;
-color: var(--lightest);
+  background-color: transparent;
+  color: var(--lightest);
 }
 
-.logo-end{
+.logo-end {
   display: inline;
   background-color: var(--lightest);
   color: var(--darkest);
@@ -171,11 +171,12 @@ nav {
 }
 
 /*  new hero  */
-.hero-tabbed-container{
+.hero-tabbed-container {
   /* max-height: 85vh;
   overflow: hidden; */
   background-color: var(--darkest);
   color: var(--lightest);
+
 }
 
 .hero-tab-menu {
@@ -190,7 +191,7 @@ nav {
   position: relative;
 }
 
-.hero-tab-image img{
+.hero-tab-image img {
   max-width: 750px;
   object-fit: cover;
 }
@@ -204,21 +205,50 @@ nav {
   width: 100%;
   border: 30px var(--darkest) solid;
 }
-.active{
+
+.tab-text:hover {
   background-color: var(--lightest);
-  color:var(--darkest)!important;
+  color: var(--darkest) !important;
+  cursor: pointer;
 }
 
-.active-tab{
+.active {
   background-color: var(--lightest);
-  color:var(--darkest);
+  color: var(--darkest) !important;
 }
 
-.detail-tab{
-  width:100%;
+.active-tab {
+  background-color: var(--lightest);
+  color: var(--darkest);
+}
+
+.detail-tab {
+  width: 100%;
   height: 100%;
   overflow: hidden;
+  padding: 10px 0;
+  text-align: left;
 }
+
+.detail-tab h1 {
+  padding: 10px 0;
+}
+
+.detail-tab p {
+  padding: 10px 0 0;
+}
+
+.btn-cta {
+  background-color: var(--lightest);
+  color: var(--darkest);
+}
+
+.btn-cta:hover {
+  background-color: var(--dark);
+  color: var(--lightest);
+}
+
+
 /* old hero  */
 
 .hero-container-full {
@@ -391,8 +421,13 @@ textarea {
   max-width: 90%;
 }
 
+.details-section {
+  background-color: var(--darkest);
+
+}
+
 .details-title {
-  color: var(--dark);
+  color: var(--lightest);
 }
 
 .heading-text {
@@ -465,7 +500,10 @@ textarea {
 
 .details-section {
   font-style: italic;
-  margin-bottom: 35px;
+  margin: 0 auto 25px;
+  padding: 15px 15px 0;
+  border-radius: 15px;
+  width:90%;
 }
 
 .details-section:hover {
@@ -480,7 +518,7 @@ textarea {
 
 .detailed-info {
   display: inline;
-
+  color: var(--lightest);
 }
 
 .hidden-detailed-info {
@@ -490,6 +528,7 @@ textarea {
 
 .map {
   height: 500px;
+  max-width: 750px;
   margin: 10px auto;
 }
 
@@ -524,7 +563,7 @@ textarea {
 @media screen and (max-width: 992px) {
   .navbar {
     font-size: 17px;
-    padding:10px 10px;
+    padding: 10px 10px;
   }
 
   .navbar-brand {
@@ -536,7 +575,7 @@ textarea {
   }
 
   .logo-image {
-width: 100%;
+    width: 100%;
     /* max-width: 40%; */
   }
 
@@ -561,14 +600,27 @@ width: 100%;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
   }
 
-  .tab-text {
+  .detail-tab h1{
+    margin-left:10px;
+  }
+
+  .detail-tab p {
+    margin-left:10px;
+  }
+
+  .detail-tab .btn{
+    margin:10px;
     
-    padding: 5px 10px;
+  }
+
+  .tab-text {
+
+    padding: 10px 10px;
     line-height: 1;
     margin: 0;
     width: 100%;
     border: 5px var(--darkest) solid;
-}
+  }
 
 
   .card {
@@ -614,6 +666,13 @@ width: 100%;
     padding: 20px 20px;
   }
 
+  .hero-tab-image img {
+    max-width: 100vw;
+  }
+
+  .map{
+    max-height:300px;
+  }
 
 }
 
