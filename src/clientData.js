@@ -1,7 +1,7 @@
 const clientData = [
     {
         id:6,
-        company:"Self Employed",
+        company:"Craig Trotman Portfolio",
         role:"Software Developer",
         length:"July 2021 - Current",
         languages:["JavaScript","React","MongoDB"],
@@ -9,7 +9,7 @@ const clientData = [
     },
     {
         id:5,
-        company:"Self Employed - Woodmans Dairy",
+        company:"Woodmans Dairy",
         role:"Software Developer",
         length:"July 2021 - Current",
         languages:["JavaScript","React","MongoDB"],
@@ -17,7 +17,7 @@ const clientData = [
     },
     {
         id:1,
-        company:"Self Employed - CDT Studios",
+        company:"CDT Studios",
         role:"Software Developer",
         length:"July 2020 - Current",
         languages:["C#","Unity","Blender"],

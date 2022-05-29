@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
+import MyMap from "./MyMap"
 
 const HeroTabbed = (props) => {
     const [img1, setImg1] = useState(false);
@@ -63,6 +65,9 @@ const HeroTabbed = (props) => {
                             <p>
                                 Do you have an idea for a mobile game or app? Get in contact to turn your idea into a reality.
                             </p>
+                            <a className="btn btn-lg btn-cta" href="https://play.google.com/store/apps/details?id=com.CDT.Eggscape" >
+                                Click here
+                            </a>
                         </div>
                     }
                     {img2 &&
@@ -72,15 +77,22 @@ const HeroTabbed = (props) => {
                             <p>
                                 Does you business need a fresh look? Looking to digitise an out dated system? Contact us today.
                             </p>
+                            <a className="btn btn-lg btn-cta" href="https://ctrotman-dev.github.io/WoodmansDairy-react/" >
+                                Click here
+                            </a>
                         </div>
                     }
                     {img3 &&
                         <div className="detail-tab">
                             <h1>API</h1>
-                            <img src="https://cdn.pixabay.com/photo/2017/06/14/16/20/network-2402637__480.jpg" alt="hero image" />
+                            {/* <img src="https://cdn.pixabay.com/photo/2017/06/14/16/20/network-2402637__480.jpg" alt="hero image" /> */}
+                            <MyMap />
                             <p>
                                 Looking for APi integration to enhance your data sets? Tired of structured SQL and want to switch to NoSQL?
                             </p>
+                            <Link className="btn btn-lg btn-cta" to={"/clients"} >
+                                Click here
+                            </Link>
                         </div>
                     }
                 </div>

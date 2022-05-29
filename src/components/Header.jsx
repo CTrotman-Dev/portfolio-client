@@ -25,7 +25,7 @@ function Header() {
     {/* <Navbar.Brand href="/">Craig Trotman</Navbar.Brand> */}
     <Navbar.Toggle aria-controls="navbar-nav" />
     <Navbar.Collapse id="navbar-nav">
-      <Nav className="me-auto">
+      <Nav className="me-0">
         <Nav.Link eventKey="0" as={Link} className="nav-item" href="/" to="/">Home</Nav.Link>
         <Nav.Link eventKey="1" as={Link} className="nav-item" href="/clients" to="/clients">Clients</Nav.Link>
         <Nav.Link eventKey="2" as={Link} className="nav-item" href="/education" to="/education">Education</Nav.Link>

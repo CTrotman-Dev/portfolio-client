@@ -27,7 +27,7 @@ const NameValueCell = (props) => {
                 </p>
 
             </div>
-            <div className="col-6 right-col details-section" onClick={handleClick}>
+            <div className="col-6 right-col language-section" onClick={handleClick}>
            {isVisible ? 
                 <ul className="two-col">
                     {props.languages.map((x, i) =>
@@ -41,13 +41,13 @@ const NameValueCell = (props) => {
                 </ul>
            }
             </div>
-            <div className="row">
+            
 
                 {props.info.map((x, i) =>
                     <NameValueDetails key={x[0] + i} title={x[0]} content={x[1]} />
                 )}
 
-            </div>
+           
         </div>
     );
 }
