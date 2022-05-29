@@ -5,15 +5,15 @@ const clientData = [
         role:"Software Developer",
         length:"July 2021 - Current",
         languages:["JavaScript","React","MongoDB","express","HTML","CSS","Github"],
-        info:[["Craig Trotman Website","Designed and developed craigtrotman.com. This site was designed using Figma for the planning and preparation. The front end is implemented using React, built using Visual Code. The backend is controlled using express, a Node.js framework."]]
+        info:[["Craig Trotman Website","Designed and developed craigtrotman.com. This site was designed using Figma for the planning and preparation. The front end is implemented using React, built using Visual Code. The back end is controlled using express, a Node.js framework."]]
     },
     {
         id:5,
-        company:"Woodmans Dairy",
+        company:"Woodman's Dairy",
         role:"Software Developer",
         length:"July 2021 - Current",
         languages:["JavaScript","React","MongoDB","express","HTML","CSS","Github"],
-        info:[["Woodmans Dairy Website","Designed and developed Woodmansdairy.com. This site was designed using Figma for the planning and preparation. The front end is implemented using React, built using Visual Code. The backend is controlled using express, a Node.js framework."]]
+        info:[["Woodman's Dairy Website","Designed and developed woodmansdairy.com. This site was designed using Figma for the planning and preparation. The front end is implemented using React, built using Visual Code. The back end is controlled using express, a Node.js framework."]]
     },
     {
         id:1,
@@ -30,7 +30,7 @@ const clientData = [
         length:"October 2019 - July 2020",
         languages:["C#",".Net","SQL","VB.net","Raspberry Pi","C++","MySQL","PHP","Javascript"],
         info:[["Internal CRM System","Updating and improving various aspects of the existing Customer Relation Management system using C#.net/VB.net. Web app development using .Net Core to allow external access to specific parts of CRM system. This is specifically aimed at mobile users, as the engineering department need to update customer information or support calls whilst out of the office."],
-        [ "Raspberry Pi Development", "Raspberry Pi’s act as the interface between the label printers, product conveyor, label sensors, scanners, and cameras. The software is developed using C++ which is then deployed to a Raspberry Pi. I completed various updates and improvements to existing software.Each customer has a custom build which varies from Barcode scanning to confirm the application of a label, to OCR which is used ensure to data is correct on each label. If a tolerance limit for incorrect labels is reached, the Raspberry Pi sends a signal to the label dispenser to take appropriate action (Stop the production line, warn the users etc.)."],
+        [ "Raspberry Pi Development", "Raspberry Pi’s act as the interface between the label printers, product conveyor, label sensors, scanners, and cameras. The software is developed using C++ which is then deployed to a Raspberry Pi. I completed various updates and improvements to existing software. Each customer has a custom build which varies from Barcode scanning to confirm the application of a label, to OCR which is used ensure to data is correct on each label. If a tolerance limit for incorrect labels is reached, the Raspberry Pi sends a signal to the label dispenser to take appropriate action (Stop the production line, warn the users etc.)."],
         ["Website Development", "Re-development of existing static website so that content is dynamically added to the site via a 1 MySQL database. This was developed using a combination of PHP, JavaScript, HTML, and CSS. The aim of this project was to increase the queries we received via our Website. This was achieved by placing product specific buttons on the site so users could quickly and easily enquire about a product without having to provide too much information."]]
     },
     {

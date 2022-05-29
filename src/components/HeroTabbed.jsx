@@ -63,7 +63,7 @@ const HeroTabbed = (props) => {
                             <h1>Eggscape</h1>
                             <img src="images/Eggscape.png" alt="hero image" />
                             <p>
-                                Do you have an idea for a mobile game or app? Get in contact to turn your idea into a reality.
+                                Do you have an idea for a mobile game or app? Get in contact to turn your idea into reality.
                             </p>
                             {/* <a className="btn btn-lg btn-cta" href="https://play.google.com/store/apps/details?id=com.CDT.Eggscape" >
                                 Click here
@@ -78,7 +78,7 @@ const HeroTabbed = (props) => {
                             <h1>Woodmans Dairy</h1>
                             <img src="images/woodmans.png" alt="hero image" />
                             <p>
-                                Does you business need a fresh look? Looking to digitise an out dated system? Contact us today.
+                                Does your business need a fresh look? Are you looking to digitise an out dated system? Contact us today.
                             </p>
                             {/* <a className="btn btn-lg btn-cta" href="https://ctrotman-dev.github.io/WoodmansDairy-react/" >
                                 Click here
@@ -90,7 +90,7 @@ const HeroTabbed = (props) => {
                     }
                     {img3 &&
                         <div className="detail-tab">
-                            <h1>API</h1>
+                            <h1>Server Side</h1>
                             {/* <img src="https://cdn.pixabay.com/photo/2017/06/14/16/20/network-2402637__480.jpg" alt="hero image" /> */}
                             <MyMap />
                             <p>
