@@ -16,7 +16,7 @@ const About = () => {
                     
                 </p>
                 <p>
-                    Since Graduating back in 2014 from Swansea University, i have gained experience in various different developer roles. Starting with working for a big Goverment Contracting company.
+                    Since Graduating back in 2014 from Swansea University, i have gained experience in various different developer roles. Starting with working for a big Goverment Contracting company in the UK.
                 </p>
                 <p>
                     From there i decided to get some life experience by travelling through Asia and on to Australia, where i completed a 3 month contract at a Software Development company in Perth.
