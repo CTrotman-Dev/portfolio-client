@@ -1,15 +1,15 @@
 :root {
-  --light-font: #CCEB8D;
-  --light-font-hover: #7BA429;
-  --main-bg: #DB2A02;
-  --dark-font: #08182B;
-  --dark-font-hover: #1D5697;
+  --light-font: #cceb8d;
+  --light-font-hover: #7ba429;
+  --main-bg: #db2a02;
+  --dark-font: #08182b;
+  --dark-font-hover: #1d5697;
   --off-white: rgba(255, 255, 255, 0.8);
 
-  --lightest: #B1D4E0;
-  --light: #2E8BC0;
-  --dark: #145DA0;
-  --darkest: #0C2D48;
+  --lightest: #b1d4e0;
+  --light: #2e8bc0;
+  --dark: #145da0;
+  --darkest: #0c2d48;
 }
 
 * {
@@ -46,7 +46,6 @@ h4 {
 .mainContent {
   /* margin: 0 25px; */
   text-align: center;
-
 }
 
 .logo {
@@ -79,7 +78,6 @@ nav {
 }
 
 .navbar-brand {
-
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   font-size: 30px;
@@ -118,7 +116,6 @@ nav {
 }
 
 .logo-image {
-
   max-width: 65%;
   margin: auto;
 }
@@ -141,7 +138,6 @@ nav {
   color: var(--lightest);
 }
 
-
 .center {
   display: flex;
   align-items: center;
@@ -156,7 +152,6 @@ nav {
   height: 100vh;
 }
 
-
 .inset {
   position: absolute;
   inset: 0;
@@ -170,11 +165,10 @@ nav {
   color: #446;
 }
 
-
-.title-banner{
+.title-banner {
   background-color: var(--darkest);
   color: var(--lightest);
-  padding:15px 0;
+  padding: 15px 0;
   width: 100%;
 }
 
@@ -184,13 +178,11 @@ nav {
   overflow: hidden; */
   background-color: var(--darkest);
   color: var(--lightest);
-
 }
 
 .hero-tab-menu {
   padding: 0;
   margin: auto 0;
-
 }
 
 .hero-tab-image {
@@ -255,7 +247,6 @@ nav {
   background-color: var(--dark);
   color: var(--lightest);
 }
-
 
 /* old hero  */
 
@@ -377,8 +368,6 @@ nav {
   font-size: 1.5rem;
 } */
 
-
-
 /* li {
   font-family: "Architects Daughter", cursive;
   font-size: 25px;;
@@ -387,14 +376,10 @@ nav {
   padding: 0.5rem;
 } */
 
-
 .strike-text {
   text-decoration: line-through;
   color: #00b609;
 }
-
-
-
 
 .contact-form button {
   width: 100%;
@@ -414,9 +399,7 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  ;
 }
-
 
 .row-container {
   color: var(--darkest);
@@ -431,7 +414,6 @@ textarea {
 
 .details-section {
   background-color: var(--darkest);
-
 }
 
 .details-title {
@@ -440,7 +422,6 @@ textarea {
 
 .heading-text {
   text-align: center;
-
 }
 
 .left-col {
@@ -460,8 +441,8 @@ textarea {
   width: 90%;
 }
 
-.two-col:hover{
-  color:var(--dark);
+.two-col:hover {
+  color: var(--dark);
   cursor: pointer;
 }
 
@@ -471,12 +452,12 @@ textarea {
   margin: 10px auto;
 }
 
-.btn-about{
+.btn-about {
   background-color: var(--darkest);
   color: var(--lightest);
 }
 
-.btn-about:hover{
+.btn-about:hover {
   background-color: var(--light);
   color: var(--darkest);
 }
@@ -491,7 +472,6 @@ textarea {
   width: 250px;
   height: 250px;
   margin: 0 auto;
-
 }
 
 .quick-link img {
@@ -520,19 +500,52 @@ textarea {
   text-decoration: none;
 }
 
+/* Center the article list and set a max width */
+.article-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Add some spacing between articles */
+.article {
+  margin: 20px;
+}
+
+/* Use a larger font size and a blue color for the article title */
+.article-title {
+  font-size: 32px;
+  color: #00f;
+}
+
+/* Use a smaller font size and a gray color for the article content */
+.article-content {
+  font-size: 16px;
+  color: #aaa;
+}
+
+/* Add some padding and a border to the article content */
+.article-content p,
+.article-content ul,
+.article-content li {
+  padding: 10px;
+  border: 1px solid #444;
+}
+
 .details-section {
   color: var(--lightest);
   font-style: italic;
   margin: 0 auto 25px;
   padding: 15px 15px 0;
   border-radius: 15px;
-  width:90%;
+  width: 90%;
 }
 
 .details-section:hover {
   color: var(--light);
   cursor: pointer;
-  
 }
 
 .details-title {
@@ -540,7 +553,7 @@ textarea {
   text-decoration: underline;
 }
 
-.details-title:hover{
+.details-title:hover {
   color: var(--light);
   cursor: pointer;
 }
@@ -552,7 +565,6 @@ textarea {
 
 .hidden-detailed-info {
   display: none;
-
 }
 
 .map {
@@ -570,10 +582,8 @@ textarea {
   width: 100%;
 }
 
-
 .social-icons {
   margin-top: 25px;
-  ;
   text-align: center;
 }
 
@@ -629,28 +639,25 @@ textarea {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
   }
 
-  .detail-tab h1{
-    margin-left:10px;
+  .detail-tab h1 {
+    margin-left: 10px;
   }
 
   .detail-tab p {
-    margin-left:10px;
+    margin-left: 10px;
   }
 
-  .detail-tab .btn{
-    margin:10px;
-    
+  .detail-tab .btn {
+    margin: 10px;
   }
 
   .tab-text {
-
     padding: 10px 10px;
     line-height: 1;
     margin: 0;
     width: 100%;
     border: 5px var(--darkest) solid;
   }
-
 
   .card {
     padding: 0;
@@ -659,7 +666,6 @@ textarea {
 
   .name {
     font-size: 1.4em;
-
 
     /* margin: 10px 10px 0; */
   }
@@ -683,7 +689,7 @@ textarea {
     width: 100%;
   }
 
-  .heading-text{
+  .heading-text {
     text-align: left;
   }
 
@@ -699,11 +705,11 @@ textarea {
     padding: 5px 10px;
   }
 
-  .details-title{
+  .details-title {
     font-size: 16px;
   }
 
-  .detailed-info{
+  .detailed-info {
     font-size: 14px;
   }
 
@@ -711,10 +717,9 @@ textarea {
     max-width: 100vw;
   }
 
-  .map{
-    max-height:300px;
+  .map {
+    max-height: 300px;
   }
-
 }
 
 /* On screens that are 600px or less */
