@@ -44,8 +44,8 @@ h4 {
 }
 
 .mainContent {
-  /* margin: 0 25px; */
-  text-align: center;
+  /* margin: 0 25px; 
+  text-align: center;*/
 }
 
 .logo {
@@ -163,13 +163,6 @@ nav {
 
 .gray {
   color: #446;
-}
-
-.title-banner {
-  background-color: var(--darkest);
-  color: var(--lightest);
-  padding: 15px 0;
-  width: 100%;
 }
 
 /*  new hero  */
@@ -500,40 +493,6 @@ textarea {
   text-decoration: none;
 }
 
-/* Center the article list and set a max width */
-.article-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-/* Add some spacing between articles */
-.article {
-  margin: 20px;
-}
-
-/* Use a larger font size and a blue color for the article title */
-.article-title {
-  font-size: 32px;
-  color: #00f;
-}
-
-/* Use a smaller font size and a gray color for the article content */
-.article-content {
-  font-size: 16px;
-  color: #aaa;
-}
-
-/* Add some padding and a border to the article content */
-.article-content p,
-.article-content ul,
-.article-content li {
-  padding: 10px;
-  border: 1px solid #444;
-}
-
 .details-section {
   color: var(--lightest);
   font-style: italic;
@@ -596,6 +555,87 @@ textarea {
 .social-icon:hover {
   font-size: 40px;
   color: var(--dark);
+}
+
+.title-banner {
+  background-color: var(--darkest);
+  color: var(--lightest);
+  padding: 15px 0;
+  width: 100%;
+}
+
+.title-text {
+  text-align: center;
+}
+.guideLinks {
+  font-size: large;
+  text-align: center;
+  width: auto;
+  margin: 50px auto 0;
+  padding: 5px 15px;
+  background-color: #eee;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 5%;
+}
+
+.guideLinks a {
+  color: black;
+}
+
+ul.table-of-contents {
+  list-style: decimal;
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 5px 20px;
+  text-align: left;
+}
+
+ul.table-of-contents li {
+  font-weight: bold;
+  padding: 15px;
+}
+
+ul.table-of-contents li ul {
+  padding-left: 20px;
+}
+/* .devGuides {
+  
+}
+
+.devGuides .header h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+.devGuides h4 {
+  
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 25px;
+} */
+.devContent {
+  padding: 10px 12%;
+  text-align: left !important;
+}
+.devGuides p {
+  margin-bottom: 10px;
+}
+
+/* .devGuides .codeSection {
+
+} */
+
+.devGuides code {
+  padding: 2px 4px;
+  background-color: #eee;
+  border-radius: 4px;
+  color: #333;
+
+  display: table;
+  width: auto;
+  margin: 0 auto;
 }
 
 /* On screens that are 992px or less */
