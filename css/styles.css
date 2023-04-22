@@ -43,11 +43,6 @@ h4 {
   margin: 0;
 }
 
-.mainContent {
-  /* margin: 0 25px; 
-  text-align: center;*/
-}
-
 .logo {
   display: inline;
 }
@@ -663,6 +658,22 @@ ul.table-of-contents li ul {
   display: table;
   width: auto;
   margin: 0 auto;
+}
+
+.compare-grid {
+  width: 100%;
+}
+
+.compare-grid .row {
+  padding: 10px 0;
+}
+
+.compare-grid img {
+  width: 50%;
+}
+.compare-grid .img-left,
+.img-right {
+  text-align: center;
 }
 
 /* On screens that are 992px or less */
