@@ -55,7 +55,10 @@
     <loc>https://craigtrotman.com/compare</loc>
   </url>
   <url>
-    <loc>https://craigtrotman.com/phones</loc>
+    <loc>https://craigtrotman.com/compare/phones</loc>
+  </url>
+    <url>
+    <loc>https://craigtrotman.com/compare/tablets</loc>
   </url>
 
 </urlset>
