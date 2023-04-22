@@ -22,4 +22,32 @@
   <url>
     <loc>https://craigtrotman.com/contact</loc>
   </url>
+  <url>
+    <loc>https://craigtrotman.com/guides</loc>
+  </url>
+
+  <url>
+    <loc>https://craigtrotman.com/guides/Intro</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/guides/HTMLBasics</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/guides/CSSBasics</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/guides/CSharpBasics</loc>
+  </url>
+    <url>
+    <loc>https://craigtrotman.com/guides/CSharp/CSharp1</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/guides/JavaScriptBasics</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/guides/ReactBasics</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/guides/AdvancedIntro</loc>
+  </url>
 </urlset>
