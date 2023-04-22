@@ -97,14 +97,41 @@ nav {
   text-decoration: none;
 }
 
+.nav-link {
+  color: var(--darkest) !important;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: var(--darkest) !important;
+  color: var(--lightest) !important;
+  text-decoration: none;
+}
+
 .navbar button {
-  font-size: 15px;
+  background-color: var(--darkest) !important;
+  color: var(--lightest) !important;
+  font-size: 20px;
   font-weight: 600;
-  float: right;
+  float: left;
+}
+
+.navbar button:hover {
+  color: var(--darkest) !important;
+  background-color: var(--lightest) !important;
+  font-size: 20px;
+  font-weight: 600;
+  float: left;
 }
 
 .nav-item {
   padding: 5px 15px;
+}
+
+.custom-dropdown {
+  font-family: "Poppins", sans-serif;
+  color: var(--lightest);
+  text-decoration: none;
 }
 
 .navbar-toggler {
@@ -677,6 +704,10 @@ ul.table-of-contents li ul {
 
   button:focus:not(:focus-visible) {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .dropdown-menu {
+    padding: 40px 15px 10px;
   }
 
   .detail-tab h1 {
