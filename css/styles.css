@@ -666,14 +666,24 @@ ul.table-of-contents li ul {
 
 .compare-grid .row {
   padding: 10px 0;
+  margin-top: 10px;
+  display: inline-block;
 }
 
 .compare-grid img {
+  padding-bottom: 10px;
   width: 50%;
 }
 .compare-grid .img-left,
 .img-right {
   text-align: center;
+}
+.img-left {
+  float: left;
+}
+
+.img-right {
+  float: right;
 }
 
 /* On screens that are 992px or less */
