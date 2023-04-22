@@ -689,6 +689,13 @@ ul.table-of-contents li ul {
   float: right;
 }
 
+.btn-primary {
+  background-color: var(--darkest) !important;
+  color: var(--lightest) !important;
+  border: none;
+  font-weight: 600;
+}
+
 /* On screens that are 992px or less */
 @media screen and (max-width: 992px) {
   .navbar {
