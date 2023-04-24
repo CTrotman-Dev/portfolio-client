@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      $(document).ready(function () {
+        console.log("404 test");
+        // Get the current URL.
+        const currentUrl = window.location.href;
+
+        // Split the URL into its parts.
+        const parts = currentUrl.split("/");
+
+        // Get the domain name.
+        const domain = parts[0];
+
+        // Get the path.
+        const path = parts[1];
+
+        // Create a new URL with the hash symbol inserted after the domain.
+        const newUrl = `${domain}#${path}`;
+
+        // Redirect the user to the new URL.
+        window.location.href = newUrl;
+      });
+    </script>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <h1>404 Not Found</h1>
+    <p>The page you are looking for could not be found.</p>
+    <p>Please check the URL you entered and try again.</p>
+    <p>
+      If you are still having trouble, please contact the site administrator.
+    </p>
+  </body>
+</html>
