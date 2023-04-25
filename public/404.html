@@ -16,8 +16,8 @@
       // // Redirect the user to the new URL.
       // console.log("Hash:" + urlObj.hash + " - " + urlObj.hash.length);
       if (urlObj.hash.length <= 0) {
-        console.log("new url" + window.location);
-        window.location.assign(window.location);
+        console.log("new url" + window.location.pathname);
+        window.location.assign(window.location.pathname);
       }
       // else {
       //   console.log("going home");
