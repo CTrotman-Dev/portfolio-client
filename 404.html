@@ -7,22 +7,11 @@
     <script src="../src/index.js" type="text/jsx"></script>
     <script>
       $(document).ready(function () {
-        console.log("404 test");
         // Get the current URL.
         const currentUrl = window.location.href;
-
-        // Split the URL into its parts.
-        const parts = currentUrl.split("/");
-
-        // Get the domain name.
-        const domain = parts[0];
-
-        // Get the path.
-        const path = parts[1];
-
+        var urlObj = new URL(currentUrl);
         // Create a new URL with the hash symbol inserted after the domain.
-        const newUrl = `${domain}#${path}`;
-
+        const newUrl = `${urlObj.host}/#${urlObj.pathname}`;
         // Redirect the user to the new URL.
         window.location.href = newUrl;
       });
