@@ -41,45 +41,73 @@ class App extends Component {
           <div className="mainContent">
             <Routes>
               <Route exact path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/clients" element={<Clients />} />
-              <Route path="/education" element={<Education />} />
-              <Route path="/guides" element={<Guides />} />
+              <Route exact path="/about" element={<About />} />
+              <Route exact path="/contact" element={<Contact />} />
+              <Route exact path="/clients" element={<Clients />} />
+              <Route exact path="/education" element={<Education />} />
+              <Route exact path="/guides" element={<Guides />} />
 
-              <Route path="/guides/Intro" element={<Introduction />} />
-              <Route path="/guides/HTMLBasics" element={<HTMLBasics />} />
-              <Route path="/guides/CSSBasics" element={<CSSBasics />} />
-              <Route path="/guides/CSharpBasics" element={<CSharpBasics />} />
-
-              <Route path="/guides/CSharp/CSharp1" element={<CSharp1 />} />
+              <Route exact path="/guides/Intro" element={<Introduction />} />
+              <Route exact path="/guides/HTMLBasics" element={<HTMLBasics />} />
+              <Route exact path="/guides/CSSBasics" element={<CSSBasics />} />
+              <Route
+                exact
+                path="/guides/CSharpBasics"
+                element={<CSharpBasics />}
+              />
 
               <Route
+                exact
+                path="/guides/CSharp/CSharp1"
+                element={<CSharp1 />}
+              />
+
+              <Route
+                exact
                 path="/guides/JavaScriptBasics"
                 element={<JavaScriptBasics />}
               />
-              <Route path="/guides/ReactBasics" element={<ReactBasics />} />
-              <Route path="/guides/AdvancedIntro" element={<AdvancedIntro />} />
-
-              <Route path="/compare" element={<Comparisons />} />
               <Route
+                exact
+                path="/guides/ReactBasics"
+                element={<ReactBasics />}
+              />
+              <Route
+                exact
+                path="/guides/AdvancedIntro"
+                element={<AdvancedIntro />}
+              />
+
+              <Route exact path="/compare" element={<Comparisons />} />
+              <Route
+                exact
                 path="/compare/phones"
                 element={<SmartphoneComparison />}
               />
 
-              <Route path="/compare/tablets" element={<TabletComparison />} />
-              <Route path="/compare/laptops" element={<LaptopComparison />} />
               <Route
+                exact
+                path="/compare/tablets"
+                element={<TabletComparison />}
+              />
+              <Route
+                exact
+                path="/compare/laptops"
+                element={<LaptopComparison />}
+              />
+              <Route
+                exact
                 path="/compare/powersupply"
                 element={<PowerSupplyComparison />}
               />
               <Route
+                exact
                 path="/compare/graphicscards"
                 element={<GraphicsCardComparison />}
               />
-              <Route path="/compare/tvs" element={<TVComparison />} />
-              <Route path="/404" component={NotFound} />
-              <Route path="*" component={NotFound} />
+              <Route exact path="/compare/tvs" element={<TVComparison />} />
+              {/* <Route path="/404" component={NotFound} />
+              <Route path="*" component={NotFound} /> */}
               {/* <Redirect from="*" to="/404" /> */}
             </Routes>
           </div>
