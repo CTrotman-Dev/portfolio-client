@@ -8,20 +8,21 @@
     <script type="text/javascript">
       // $(document).ready(function () {
       // Get the current URL.
-      const currentUrl = window.location.href;
-      var urlObj = new URL(currentUrl);
-      // Create a new URL with the hash symbol inserted after the domain.
-      //const newUrl = `craigtrotman.com/#${urlObj.pathname}`;
-      console.log("Path:" + urlObj.pathname);
-      // Redirect the user to the new URL.
-      console.log("Hash:" + urlObj.hash + " - " + urlObj.hash.length);
-      if (urlObj.hash.length > 0) {
-        console.log("going home");
-        window.location.href = "craigtrotman.com";
-      } else {
+      // const currentUrl = window.location.href;
+      // var urlObj = new URL(currentUrl);
+      // // Create a new URL with the hash symbol inserted after the domain.
+      // //const newUrl = `craigtrotman.com/#${urlObj.pathname}`;
+      // console.log("Path:" + urlObj.pathname);
+      // // Redirect the user to the new URL.
+      // console.log("Hash:" + urlObj.hash + " - " + urlObj.hash.length);
+      if (urlObj.hash.length <= 0) {
         console.log("new url" + window.location);
         window.location.assign(window.location);
       }
+      // else {
+      //   console.log("going home");
+      //   window.location.href = "craigtrotman.com";
+      // }
 
       // });
     </script>
