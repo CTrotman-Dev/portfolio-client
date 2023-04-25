@@ -15,12 +15,12 @@
         console.log("Path:" + urlObj.pathname);
         // Redirect the user to the new URL.
         console.log("Hash:" + urlObj.hash);
-        if ((urlObj.hash = "")) {
+        if (urlObj.hash.length > 0) {
           console.log("going home");
           window.location.href = "craigtrotman.com";
         } else {
-          console.log("new url" + newUrl);
-          window.location.replace(newUrl);
+          console.log("new url" + urlObj.pathname);
+          window.location.replace(urlObj.pathname);
         }
       });
     </script>
