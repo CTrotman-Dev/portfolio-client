@@ -6,45 +6,45 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="../src/index.js" type="text/jsx"></script>
     <script type="text/javascript">
-      $(document).ready(function () {
-        // // Get the current URL.
-        // const currentUrl = window.location.href;
-        // var urlObj = new URL(currentUrl);
-        // // Create a new URL with the hash symbol inserted after the domain.
-        // const newUrl = `craigtrotman.com/#${urlObj.pathname}`;
-        // console.log("Path:" + urlObj.pathname);
-        // // Redirect the user to the new URL.
-        // console.log("Hash:" + urlObj.hash);
-        // if (urlObj.hash.length > 0) {
-        //   console.log("going home");
-        //   window.location.href = "craigtrotman.com";
-        // } else {
-        //   console.log("new url" + urlObj.pathname);
-        //   window.location.replace(urlObj.pathname);
-        // }
-        var pathSegmentsToKeep = 0;
+      // $(document).ready(function () {
+      // // Get the current URL.
+      // const currentUrl = window.location.href;
+      // var urlObj = new URL(currentUrl);
+      // // Create a new URL with the hash symbol inserted after the domain.
+      // const newUrl = `craigtrotman.com/#${urlObj.pathname}`;
+      // console.log("Path:" + urlObj.pathname);
+      // // Redirect the user to the new URL.
+      // console.log("Hash:" + urlObj.hash);
+      // if (urlObj.hash.length > 0) {
+      //   console.log("going home");
+      //   window.location.href = "craigtrotman.com";
+      // } else {
+      //   console.log("new url" + urlObj.pathname);
+      //   window.location.replace(urlObj.pathname);
+      // }
+      var pathSegmentsToKeep = 0;
 
-        var l = window.location;
-        l.replace(
-          l.protocol +
-            "//" +
-            l.hostname +
-            (l.port ? ":" + l.port : "") +
-            l.pathname
-              .split("/")
-              .slice(0, 1 + pathSegmentsToKeep)
-              .join("/") +
-            "/?/" +
-            l.pathname
-              .slice(1)
-              .split("/")
-              .slice(pathSegmentsToKeep)
-              .join("/")
-              .replace(/&/g, "~and~") +
-            (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
-            l.hash
-        );
-      });
+      var l = window.location;
+      l.replace(
+        l.protocol +
+          "//" +
+          l.hostname +
+          (l.port ? ":" + l.port : "") +
+          l.pathname
+            .split("/")
+            .slice(0, 1 + pathSegmentsToKeep)
+            .join("/") +
+          "/?/" +
+          l.pathname
+            .slice(1)
+            .split("/")
+            .slice(pathSegmentsToKeep)
+            .join("/")
+            .replace(/&/g, "~and~") +
+          (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+          l.hash
+      );
+      // });
     </script>
     <title>404 Not Found</title>
   </head>
