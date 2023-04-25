@@ -5,15 +5,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="../src/index.js" type="text/jsx"></script>
-    <script>
+    <script type="text/javascript">
       $(document).ready(function () {
         // Get the current URL.
         const currentUrl = window.location.href;
         var urlObj = new URL(currentUrl);
         // Create a new URL with the hash symbol inserted after the domain.
-        const newUrl = `${urlObj.host}/#${urlObj.pathname}`;
+        const newUrl = `craigtrotman.com/#${urlObj.pathname}`;
+        console.log("Path:" + urlObj.pathname);
         // Redirect the user to the new URL.
-        window.location.href = newUrl;
+        console.log("Hash:" + urlObj.hash);
+        if ((urlObj.hash = "")) {
+          console.log("going home");
+          window.location.href = "craigtrotman.com";
+        } else {
+          console.log("new url" + newUrl);
+          window.location.href = newUrl;
+        }
       });
     </script>
     <title>404 Not Found</title>
