@@ -22,4 +22,61 @@
   <url>
     <loc>https://craigtrotman.com/contact</loc>
   </url>
+  <url>
+    <loc>https://craigtrotman.com/guides</loc>
+  </url>
+
+  <url>
+    <loc>https://craigtrotman.com/guides/Intro</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/guides/HTMLBasics</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/guides/CSSBasics</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/guides/CSharpBasics</loc>
+  </url>
+    <url>
+    <loc>https://craigtrotman.com/guides/CSharp/CSharp1</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/guides/JavaScriptBasics</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/guides/ReactBasics</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/guides/AdvancedIntro</loc>
+  </url>
+
+  <url>
+    <loc>https://craigtrotman.com/compare</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/compare/phones</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/compare/tablets</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/compare/laptops</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/compare/powersupplys</loc>
+  </url>
+  <url>
+    <loc>https://craigtrotman.com/compare/graphicscards</loc>
+  </url>
+    <url>
+    <loc>https://craigtrotman.com/compare/tvs</loc>
+  </url>
+
+  <url>
+    <loc>https://craigtrotman.com/notfound</loc>
+  </url>
+    <url>
+    <loc>https://craigtrotman.com/404</loc>
+  </url>
 </urlset>
